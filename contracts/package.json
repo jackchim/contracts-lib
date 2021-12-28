@@ -1,32 +1,26 @@
 {
-  "name": "@openzeppelin/contracts",
+  "name": "@jcjs/contracts-lib",
   "description": "Secure Smart Contract library for Solidity",
-  "version": "4.4.1",
+  "version": "0.0.1",
   "files": [
     "**/*.sol",
     "/build/contracts/*.json",
     "!/mocks/**/*"
   ],
   "scripts": {
-    "prepare": "bash ../scripts/prepare-contracts-package.sh",
-    "prepare-docs": "cd ..; npm run prepare-docs"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OpenZeppelin/openzeppelin-contracts.git"
+    "url": "https://github.com/jackchim/contracts-lib.git"
   },
   "keywords": [
     "solidity",
-    "ethereum",
-    "smart",
-    "contracts",
-    "security",
-    "zeppelin"
+    "contracts"
   ],
-  "author": "OpenZeppelin Community <maintainers@openzeppelin.org>",
+  "author": "JackChim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OpenZeppelin/openzeppelin-contracts/issues"
+    "url": "https://github.com/jackchim/contracts-lib/issues"
   },
-  "homepage": "https://openzeppelin.com/contracts/"
+  "homepage": "https://github.com/jackchim/contracts-lib/"
 }
