@@ -1,7 +1,7 @@
 {
-  "name": "@jcjs/contracts-lib",
+  "name": "@jackchim/solidity-lib",
   "description": "Secure Smart Contract library for Solidity",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "files": [
     "**/*.sol",
     "/build/contracts/*.json",
@@ -15,7 +15,8 @@
   },
   "keywords": [
     "solidity",
-    "contracts"
+    "contracts",
+    "security"
   ],
   "author": "JackChim",
   "license": "MIT",
